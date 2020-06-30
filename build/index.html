@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Products</title>
+</head>
+<body>
+    <div class="container">
+        <section class="items">
+            <div class="items__grid">
+                <div class="product">
+                    <div class="product__body">
+                        <span class="product__status">New</span>
+
+                        <a class="product__image" href="#">
+                            <img src="../img/product-img-1.png" alt="product">
+                        </a>
+    
+                        <button class="product__compare"></button>
+    
+                        <h3 class="product__title">Шампунь</h3>
+
+                        <p class="product__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+                        <form method="post" class="product__form">
+                            <div class="wrapper">
+                                <div class="select">
+                                    <span class="select__placeholder">Цвет</span>
+                                
+                                    <ul class="select__options">
+                                        <li>
+                                            <label class="select__color">
+                                                <input class="select__color-input" type="radio" name="color" value="1">
+                                                <span class="custom-radio"></span>
+                                                Желтый
+                                            </label>
+                                        </li>
+                                
+                                        <li>
+                                            <label class="select__color">
+                                                <input class="select__color-input" type="radio" name="color" value="2">
+                                                <span class="custom-radio"></span>
+                                                Красный
+                                            </label>
+                                        </li>
+                                
+                                        <li>
+                                            <label class="select__color">
+                                                <input class="select__color-input" type="radio" name="color" value="3">
+                                                <span class="custom-radio"></span>
+                                                Зеленый
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+    
+                                <span class="product__price">200 грн</span>
+                            </div>
+
+                            <div class="product__size">
+                                <label>
+                                    <input type="radio" name="size" value="100" checked="true">
+                                    <span class="custom-radio"></span>
+                                    100 мл
+                                </label>
+                                <label>
+                                    <input type="radio" name="size" value="200">
+                                    <span class="custom-radio"></span>
+                                    200 мл
+                                </label>
+                                <label>
+                                    <input type="radio" name="size" value="300">
+                                    <span class="custom-radio"></span>
+                                    300 мл
+                                </label>
+                            </div>
+                            <div class="wrapper">
+                                <div class="product__quantity">
+                                    <button class="product__quantity--minus">-</button>
+                                    <input class="product__quantity--value" type="number" id="quantity" name="quantity" min="1" max="9" step="1"
+                                        value="1">
+                                    <button class="product__quantity--plus">+</button>
+                                </div>
+                            
+                                <button class="product__buy">Купить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product__body">
+                        <span class="product__status">New</span>
+                        <a class="product__image" href="#">
+                            <img src="../img/product-img-2.png" alt="product">
+                        </a>
+    
+                        <button class="product__compare"></button>
+    
+                        <h3 class="product__title">Шампунь</h3>
+                        <p class="product__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    
+                        <form method="post" class="product__form">
+                            <div class="wrapper">
+                                <div class="select">
+                                    <span class="select__placeholder">Цвет</span>
+                            
+                                    <ul class="select__options">
+                                        <li>
+                                            <label class="select__color">
+                                                <input class="select__color-input" type="radio" name="color" value="1">
+                                                <span class="custom-radio"></span>
+                                                Желтый
+                                            </label>
+                                        </li>
+                            
+                                        <li>
+                                            <label class="select__color">
+                                                <input class="select__color-input" type="radio" name="color" value="2">
+                                                <span class="custom-radio"></span>
+                                                Красный
+                                            </label>
+                                        </li>
+                            
+                                        <li>
+                                            <label class="select__color">
+                                                <input class="select__color-input" type="radio" name="color" value="3">
+                                                <span class="custom-radio"></span>
+                                                Зеленый
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            
+                                <span class="product__price">200 грн</span>
+                            </div>
+
+                            <div class="product__size">
+                                <label>
+                                    <input type="radio" name="size" value="100" checked="true">
+                                    <span class="custom-radio"></span>
+                                    100 мл
+                                </label>
+                                <label>
+                                    <input type="radio" name="size" value="200">
+                                    <span class="custom-radio"></span>
+                                    200 мл
+                                </label>
+                                <label>
+                                    <input type="radio" name="size" value="300">
+                                    <span class="custom-radio"></span>
+                                    300 мл
+                                </label>
+                            </div>
+                            <div class="wrapper">
+                                <div class="product__quantity">
+                                    <button class="product__quantity--minus">-</button>
+                                    <input class="product__quantity--value" type="number" id="quantity" name="quantity" min="1" max="9" step="1" value="1">
+                                    <button class="product__quantity--plus">+</button>
+                                </div>
+                            
+                                <button class="product__buy">Купить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="product">
+                    <div class="product__body">
+                        <span class="product__status">New</span>
+                        <a class="product__image" href="#">
+                            <img src="../img/product-img-3.png" alt="product">
+                        </a>
+    
+                        <button class="product__compare"></button>
+    
+                        <h3 class="product__title">Шампунь</h3>
+                        <p class="product__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    
+                        <form method="post" class="product__form">
+                            <div class="wrapper">
+                                <div class="select">
+                                    <span class="select__placeholder">Цвет</span>
+                            
+                                    <ul class="select__options">
+                                        <li>
+                                            <label class="select__color">
+                                                <input class="select__color-input" type="radio" name="color" value="1">
+                                                <span class="custom-radio"></span>
+                                                Желтый
+                                            </label>
+                                        </li>
+                            
+                                        <li>
+                                            <label class="select__color">
+                                                <input class="select__color-input" type="radio" name="color" value="2">
+                                                <span class="custom-radio"></span>
+                                                Красный
+                                            </label>
+                                        </li>
+                            
+                                        <li>
+                                            <label class="select__color">
+                                                <input class="select__color-input" type="radio" name="color" value="3">
+                                                <span class="custom-radio"></span>
+                                                Зеленый
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            
+                                <span class="product__price">200 грн</span>
+                            </div>
+
+                            <div class="product__size">
+                                <label>
+                                    <input type="radio" name="size" value="100" checked="true">
+                                    <span class="custom-radio"></span>
+                                    100 мл
+                                </label>
+                                <label>
+                                    <input type="radio" name="size" value="200">
+                                    <span class="custom-radio"></span>
+                                    200 мл
+                                </label>
+                                <label>
+                                    <input type="radio" name="size" value="300">
+                                    <span class="custom-radio"></span>
+                                    300 мл
+                                </label>
+                            </div>
+                            <div class="wrapper">
+                                <div class="product__quantity">
+                                    <button class="product__quantity--minus">-</button>
+                                    <input class="product__quantity--value" type="number" id="quantity" name="quantity" min="1" max="9" step="1"
+                                        value="1">
+                                    <button class="product__quantity--plus">+</button>
+                                </div>
+                            
+                                <button class="product__buy">Купить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
